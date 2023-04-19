@@ -9,7 +9,7 @@ namespace FizzBuzzConsoleEndTests
 
         public FizzBuzzTests()
         {
-            sut= new FizzBuzz();
+            sut = new FizzBuzz();
         }
 
         [TestMethod]

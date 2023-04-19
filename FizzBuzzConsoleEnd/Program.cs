@@ -34,11 +34,16 @@ static void Run(int menuChoice)
     switch (menuChoice)
     {
         case 1:
+            Console.WriteLine("Result");
+            Console.WriteLine("======");
             Console.WriteLine(runFizzBuzz.WriteFizzBuzz(num));
             Console.WriteLine("Press any key to continue: ");
             Console.ReadLine();
             break;
         case 2:
+            Console.WriteLine("Results");
+            Console.WriteLine("=======");
+
             for (int i = 1; i <= 100; i++)
             {
                 Console.WriteLine(runFizzBuzz.WriteFizzBuzz(i));
